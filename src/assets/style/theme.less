@@ -1,0 +1,31 @@
+@import "~uikit/src/less/uikit.theme.less";
+
+body, html {
+  min-height: 100vh;
+  background-color: @global-muted-background;
+}
+
+
+
+.uk-notification-message {
+  font-size: 14px;
+  .uk-close {
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.uk-notification-message-danger {
+
+  background: #f0506e;
+  color: #fff;
+}
+
+
+.uk-notification-message-success {
+  background-color: #32d296;
+  color: #fff;
+}
